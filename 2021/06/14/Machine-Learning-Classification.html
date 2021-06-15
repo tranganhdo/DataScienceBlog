@@ -10,13 +10,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog to share my code and improve my understanding of Statistics and Machine Learning" />
 <meta property="og:description" content="A blog to share my code and improve my understanding of Statistics and Machine Learning" />
-<link rel="canonical" href="https://tranganhdo.github.io/DataScienceBlog/2021/06/13/Machine-Learning-Classification.html" />
-<meta property="og:url" content="https://tranganhdo.github.io/DataScienceBlog/2021/06/13/Machine-Learning-Classification.html" />
+<link rel="canonical" href="https://tranganhdo.github.io/DataScienceBlog/2021/06/14/Machine-Learning-Classification.html" />
+<meta property="og:url" content="https://tranganhdo.github.io/DataScienceBlog/2021/06/14/Machine-Learning-Classification.html" />
 <meta property="og:site_name" content="My Data Science Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-06-13T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-06-14T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"A blog to share my code and improve my understanding of Statistics and Machine Learning","url":"https://tranganhdo.github.io/DataScienceBlog/2021/06/13/Machine-Learning-Classification.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://tranganhdo.github.io/DataScienceBlog/2021/06/13/Machine-Learning-Classification.html"},"headline":"Machine Learning - Classification","dateModified":"2021-06-13T00:00:00-05:00","datePublished":"2021-06-13T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"description":"A blog to share my code and improve my understanding of Statistics and Machine Learning","url":"https://tranganhdo.github.io/DataScienceBlog/2021/06/14/Machine-Learning-Classification.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://tranganhdo.github.io/DataScienceBlog/2021/06/14/Machine-Learning-Classification.html"},"headline":"Machine Learning - Classification","dateModified":"2021-06-14T00:00:00-05:00","datePublished":"2021-06-14T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/DataScienceBlog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://tranganhdo.github.io/DataScienceBlog/feed.xml" title="My Data Science Blog" /><link rel="shortcut icon" type="image/x-icon" href="/DataScienceBlog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,8 +71,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Machine Learning - Classification</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-13T00:00:00-05:00" itemprop="datePublished">
-        Jun 13, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Machine Learning - Classification</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-14T00:00:00-05:00" itemprop="datePublished">
+        Jun 14, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -88,19 +88,19 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           <div class="px-2">
 
-    <a href="https://github.com/tranganhdo/DataScienceBlog/tree/master/_notebooks/Machine Learning - Classification.ipynb" role="button" target="_blank">
+    <a href="https://github.com/tranganhdo/DataScienceBlog/tree/master/_notebooks/2021-06-14-Machine-Learning-Classification.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/DataScienceBlog/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/tranganhdo/DataScienceBlog/master?filepath=_notebooks%2FMachine+Learning+-+Classification.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/tranganhdo/DataScienceBlog/master?filepath=_notebooks%2F2021-06-14-Machine-Learning-Classification.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/DataScienceBlog/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/tranganhdo/DataScienceBlog/blob/master/_notebooks/Machine Learning - Classification.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/tranganhdo/DataScienceBlog/blob/master/_notebooks/2021-06-14-Machine-Learning-Classification.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/DataScienceBlog/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
@@ -112,14 +112,17 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/Machine Learning - Classification.ipynb
+# file to edit: _notebooks/2021-06-14-Machine-Learning-Classification.ipynb
 -->
 
 <div class="container" id="notebook-container">
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Goal:-Predict-whether-a-biopsied-breast-cell-is-benign-(not-harmful)-or-malignant-(cancerous)">Goal: Predict whether a biopsied breast cell is benign (not harmful) or malignant (cancerous)<a class="anchor-link" href="#Goal:-Predict-whether-a-biopsied-breast-cell-is-benign-(not-harmful)-or-malignant-(cancerous)"> </a></h3><h3 id="Summary-of-Results:">Summary of Results:<a class="anchor-link" href="#Summary-of-Results:"> </a></h3><ul>
+<h3 id="Goal:">Goal:<a class="anchor-link" href="#Goal:"> </a></h3><ul>
+<li>Predict whether a biopsied breast cell is benign (not harmful) or malignant (cancerous)</li>
+</ul>
+<h3 id="Summary-of-Results:">Summary of Results:<a class="anchor-link" href="#Summary-of-Results:"> </a></h3><ul>
 <li>This is a classification problem.</li>
 <li>I dealt with imbalanced classes by implementing SMOTE to up-sample the benign class.</li>
 <li>I used logistic regression as the baseline and found an accuracy score of 97.3%.</li>
@@ -6794,7 +6797,7 @@ VotingClassifier 0.9788359788359788
 
 
 
-  </div><a class="u-url" href="/DataScienceBlog/2021/06/13/Machine-Learning-Classification.html" hidden></a>
+  </div><a class="u-url" href="/DataScienceBlog/2021/06/14/Machine-Learning-Classification.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
